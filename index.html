@@ -16,11 +16,11 @@
             background-color: #f0f0f0;
         }
         .header {
-            height: 1em; /* Réduisez la hauteur selon vos besoins */
+            height: 20px; /* Réduisez la hauteur selon vos besoins */
             background-color: #333;
             color: #fff;
             text-align: center;
-            padding: 1.25em;
+            padding: 20px;
         }
         .header h1 {
             color: #fff;
@@ -44,14 +44,14 @@
             font-weight: bold;
         }
         .navbar li {
-            margin-right: 3.125em;
+            margin-right: 50px;
             color:white;
         }
         .container {
             background-color: #fff;
-            padding: 1.25em;
-            margin-right: 1.25em;
-            margin-left: 1.25em;
+            padding: 20px;
+            margin-right: 200px;
+            margin-left: 200px;
             text-align: center;
         }
         h2 {
@@ -60,17 +60,17 @@
         }
         #description {
             text-align: center;
-            margin: 1.25em 0;
+            margin: 20px 0;
         }
         #description img {
-            max-width: 18.75em;
-            border: 0.3125em solid #333;
+            max-width: 300px;
+            border: 5px solid #333;
         }
         #description p {
-            font-size: 1.125em;
+            font-size: 18px;
         }
         #education, #projects {
-            margin: 1.25em 0;
+            margin: 0 0;
         }
         #education h3, #projects h3 {
             color: #333;
@@ -79,46 +79,34 @@
             display: flex;
             flex-direction: row;
             justify-content: left;
-            margin-top: 0;
+            margin-top: 0px; /* Ajustez cette valeur selon vos besoins */
         }
 
         .item a{
             text-decoration: none;
-            margin-top: 0.9375em;
+            margin-top: 15px;
+            
         }
         .item h3 {
-            padding-right: 3.125em;
+            padding-right: 50px;
             color: #333; /* Couleur du texte modifiée en gris */
-            margin-top: 0.8125em;
+            margin-top: 13px;
         }
-
+        
         .item p{
             text-align: left;
         }
         .contact {
             text-align: center;
-            margin: 1.25em 0;
+            margin: 20px 0;
         }
         .contact a {
             text-decoration: none;
             color: #333;
-            margin: 0.625em;
+            margin: 10px;
         }
         .contact img {
-            width: 1.875em;
-        }
-
-        /* Media Query pour les téléphones */
-        @media screen and (max-width: 768px) {
-            .container {
-                margin: 0.625em;
-            }
-            .item {
-                flex-direction: column;
-            }
-            .item h3 {
-                padding-right: 0;
-            }
+            width: 30px;
         }
     </style>
 </head>
@@ -126,9 +114,9 @@
     <div class="header">
         <ul class="navbar">
             <div>
-                <li style="text-align: left; padding-right: 12.5em; " ><a href="#Accueil" >Mon site personnel</a></li>
+                <li style="text-align: left; padding-right: 20rem; " ><a href="#Accueil" >Mon site personnel</a></li>
             </div>
-            <div class="nav" style="width: 43.75em;">
+            <div class="nav" style="width: 700px;">
                 <li style="" ><a href="#Accueil" >Accueil</a></li>
                 <li><a href="#A-propos-de-moi">À propos de moi</a></li>
                 <li><a href="#Education">Education</a></li>
@@ -175,6 +163,21 @@
             <h3>2023</h3>
             <a href="https://drive.google.com/file/d/1b1xYbsXKvJF8avH6Vqf-yFXWvYGZovvb/view?usp=share_link">Rapport Analyse Numérique 3 M1 MANU</a>
         </div>
-        <div class "item">
+        <div class="item">
             <h3>2022</h3>
-            <a href="https://drive
+            <a href="https://drive.google.com/file/d/1SqD-5XcDJOMB85tCDJuaWsYV6sCa9yMg/view">Rapport de Stage M1 MANU</a>
+        </div>
+    </div>
+    <div class="container" id="Contactez-moi">
+        <h2>Contactez-moi</h2>
+        <!-- <p>Vous pouvez me contacter par email : <a href="mailto:lacorrematerai@gmail.com">lacorrematerai@gmail.com</a></p> -->
+        <p>Ou connectez-vous avec moi sur :</p>
+        <div class="contact">
+            <a href="https://www.linkedin.com/in/thomas-lacorre-b827041a7"><i class="fab fa-linkedin fa-2x"></i></a>
+            <a href="https://github.com/votre-username"><i class="fab fa-github fa-2x"></i></a>
+            <a href="mailto:lacorrematerai@gmail.com"><i class="far fa-envelope fa-2x"></i></a>
+            <a href="https://maps.google.com/?q=Votre+Adresse"><i class="fas fa-map-marker-alt fa-2x"></i></a>
+        </div>
+    </div>
+</body>
+</html>
