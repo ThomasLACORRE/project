@@ -50,8 +50,8 @@
         .container {
             background-color: #fff;
             padding: 1.25em;
-            margin-right: 12.5em;
-            margin-left: 12.5em;
+            margin-right: 1.25em;
+            margin-left: 1.25em;
             text-align: center;
         }
         h2 {
@@ -70,7 +70,7 @@
             font-size: 1.125em;
         }
         #education, #projects {
-            margin: 0 0;
+            margin: 1.25em 0;
         }
         #education h3, #projects h3 {
             color: #333;
@@ -107,6 +107,19 @@
         .contact img {
             width: 1.875em;
         }
+
+        /* Media Query pour les téléphones */
+        @media screen and (max-width: 768px) {
+            .container {
+                margin: 0.625em;
+            }
+            .item {
+                flex-direction: column;
+            }
+            .item h3 {
+                padding-right: 0;
+            }
+        }
     </style>
 </head>
 <body>
@@ -139,7 +152,7 @@
             <h3>2023</h3>
             <p>Master Première année en Modélisation et Analyse Numérique - Faculté des Sciences - Montpellier, France</p>
         </div>
-        <div class "item">
+        <div class="item">
             <h3>2020</h3>
             <p>Licence Mathématiques - Université de la Polynésie Française</p>
         </div>
@@ -164,8 +177,4 @@
         </div>
         <div class "item">
             <h3>2022</h3>
-            <a href="https://drive.google.com/file/d/1SqD-5XcDJOMB85tCDJuaWsYV6sCa9yMg/view">Rapport de Stage M1 MANU</a>
-        </div>
-    </div>
-    <div class="container" id="Contactez-moi">
-        <
+            <a href="https://drive
